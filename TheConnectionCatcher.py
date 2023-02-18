@@ -1,3 +1,9 @@
+# Author: Igor Andrade
+# Debian-PB.org
+# 18/02/23
+#
+
+# Thank you Jesus, for bless me!
 from flask import Flask, jsonify
 import subprocess
 import time
