@@ -10,7 +10,7 @@ import time
 
 app = Flask(__name__)
 
-# O acesso será feito em 2 ou mais servidores, aqui estou usando apenas 2 servidores web, mas voce pode adicionar mais coisas no dicionario
+# O acesso será feito em 2 ou mais servidores, aqui estou usando apenas 2 servidores web, mas voce pode adicionar mais coisas na lista de dicionarios
 servers = [
     {"name": "web01", "ip": "IPAQUI"},
     {"name": "web02", "ip": "IPAQUI"}
